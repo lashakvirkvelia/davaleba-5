@@ -47,13 +47,42 @@ button {
     vertical-align: middle;
     margin-left: 357px;
     padding: 8px 16px;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 30px;
+
 
 }
 
 .button {
     color: #2A9D8F;
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+}
+article{
+    width: 780px;
+height: 434px;
+margin-inline :auto;
+text-align: center;
+margin-top: 322px;
 
 }
+h1{
+    font-weight: 500;
+font-size: 48px;
+line-height: 130%;
+color: #4D4D4D;
+}
+.article_txt1, .article_txt2{
+   text-align: justify;
+   font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 170%;
+color: #656565;
+font-family: 'Nerko One', cursive;
+
+}
+.article_txt1{
+    margin-bottom: 52px;
+}
+
