@@ -17,7 +17,7 @@ nav {
 
 }
 
-li {
+.header_txt {
     display: inline-block;
     vertical-align: middle;
     font-family: 'Nerko One', cursive;
@@ -39,6 +39,7 @@ li {
     margin-right: 51px;
     color: #ffff;
 }
+
 
 .newsletter {
     color: #ffff;
@@ -95,7 +96,7 @@ h1 {
 
 .article_txt1 {
     margin-bottom: 52px;
-    
+
 }
 
 
@@ -158,25 +159,83 @@ h1 {
 
 /* Section 2  */
 
-.section2{
+.section2 {
     margin: 175px 130px 200px;
     width: 1180px;
     text-align: center;
-    
-}
-.section2_div1, .section2_div2{
-    display: inline-block;
-    text-align: left;
-   
-}
-.section2_txt{
-    font-weight: 400;
-font-size: 24px;
-line-height: 36px;
-color: #535353;
-margin-top: 32px;
+
 }
 
-.section2_div1{
-    margin-right:10px
+.section2_div1,
+.section2_div2 {
+    display: inline-block;
+    text-align: left;
+
+}
+
+.section2_txt {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #535353;
+    margin-top: 32px;
+}
+
+.section2_div1 {
+    margin-right: 10px
+}
+
+/* Footer  */
+
+
+footer {
+    background: #2A9D8F;
+    width: 1440px;
+    padding: 90px 130px 148px;
+}
+
+.footer_logo {
+    margin-right: 634px;
+
+}
+
+.footer_div1,
+.footer_div2,
+.footer_div3 {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.footer_div1,
+.footer_div2 {
+    margin-right: 41px;
+}
+
+.footer_head {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffff;
+    margin-bottom: 21px;
+
+}
+
+
+
+.footer_txt1,
+.footer_txt2,
+.footer_txt3 {
+    color: #ffff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.footer_txt1,
+.footer_txt2 {
+    margin-bottom: 8px;
 }
